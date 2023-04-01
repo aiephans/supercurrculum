@@ -1,0 +1,61 @@
+body {
+	background-color:white;
+	margin:0;
+	font-family: 'Alkatra', cursive;
+}
+
+.cabecera{
+	background:black;
+	height:15vh;
+	text-align:center;
+}
+
+.cabecera h1{
+	margin:0;
+	color:white;
+	padding-top:25px;;
+}
+
+.contenedor{
+	display:flex;
+	height:85vh;
+}
+
+.menu{
+	background:#a3a7ad;
+	width:25%;
+}
+.content{
+	background:white;
+	width:75%;
+	padding:15px;
+}
+
+ul li{
+	font-size:25px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+ul li :hover{
+	background-color:#46474a;
+	color:white;
+}
+
+.active a{
+	background-color:#46474a;
+	color:white !important;
+}
+
+ul {
+	list-style : none;
+}
+
+.imagen{
+	max-width:300px;
+}
